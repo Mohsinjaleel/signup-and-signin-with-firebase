@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="lib/boot.css">
+    <link rel="stylesheet" href="lib/signup.css">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="cover.css" rel="stylesheet"> -->
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDzrmUX87dmfuos6GOeTtlQg2XAWHrJnLI",
+    authDomain: "fir-practise-ff7da.firebaseapp.com",
+    databaseURL: "https://fir-practise-ff7da.firebaseio.com",
+    projectId: "fir-practise-ff7da",
+    storageBucket: "fir-practise-ff7da.appspot.com",
+    messagingSenderId: "483669370009"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <div class="row">
+                
+            <div class="col-4">
+
+                    <h1>Sign Up</h1> <br />
+                <div class="input-group">
+                    <input type="text" id="firstname" class="form-control" placeholder="First Name" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                  <div class="input-group">
+                    <input type="text" id="lastname" class="form-control" placeholder="Last Name" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="email" class="form-control" placeholder="abc@example.com" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="cellnumber" class="form-control" placeholder="Cell Number" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                  <div class="input-group">
+                    <input type="text" id="gender" class="form-control" placeholder="Gender" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                  <div class="input-group">
+                    <!--<span class="input-group-addon" id="basic-addon1">Age</span>-->
+                    <input type="text" id="age" class="form-control" placeholder="Age" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+
+                <div class="input-group">
+                    <!--<span class="input-group-addon" id="basic-addon1">Password</span>-->
+                    <input type="password" id="pass" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                
+               
+
+                <button class="btn btn-success" onclick="submit()">SUBMIT</button>
+            </div>
+</div>
+</div>
+
+            <!--<div class="col">
+                <table class="table table-inverse">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+    </div>
+-->
+
+    <!-- <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">Cover</h3>
+                        <nav class="nav nav-masthead">
+                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                    <h1 class="cover-heading">Cover your page.</h1>
+                    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and
+                        add your own fullscreen background photo to make it your own.</p>
+                    <p class="lead">
+                        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                    </p>
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+
+
+
+
+
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/popper.js"></script>
+    <script src="lib/boot.js"></script>
+</body>
+<script src="app.js"></script>
+</html>

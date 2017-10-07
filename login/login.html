@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../lib/boot.css">
+    <link rel="stylesheet" href="../lib/login.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDzrmUX87dmfuos6GOeTtlQg2XAWHrJnLI",
+    authDomain: "fir-practise-ff7da.firebaseapp.com",
+    databaseURL: "https://fir-practise-ff7da.firebaseio.com",
+    projectId: "fir-practise-ff7da",
+    storageBucket: "fir-practise-ff7da.appspot.com",
+    messagingSenderId: "483669370009"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<head>
+<body>
+     <div class="container">
+<div class="row">
+  <div class="col-4">
+      <form class="form-signin" id="stop"> 
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="pass" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+          </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+      </div>
+      </div>
+</div>
+
+
+<script src="../lib/jquery.js"></script>
+<script src="../lib/popper.js"></script>
+<script src="../lib/boot.js"></script>
+    </div> <!-- /container -->
+<script src="login.js"></script> 
+</body>
+</html>

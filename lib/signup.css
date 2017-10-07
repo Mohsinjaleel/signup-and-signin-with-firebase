@@ -1,0 +1,21 @@
+body {
+  background-color: #000000;
+
+}
+
+.col-4 {
+    margin: 140px auto;
+}
+
+.btn {
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    color: white
+}
+
+.input-group {
+    margin: -1px 0px;
+}
